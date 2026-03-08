@@ -213,7 +213,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </div>
 
         <footer className="py-6 px-8 text-center text-sm text-slate-400">
-          &copy; {new Date().getFullYear()} {APP_NAME}. 本地浏览器处理，无需上传服务器。
+          &copy; {new Date().getFullYear()} {APP_NAME} v{__APP_VERSION__}. 本地浏览器处理，无需上传服务器。
         </footer>
 
         {/* Scroll To Top/Bottom Button */}
